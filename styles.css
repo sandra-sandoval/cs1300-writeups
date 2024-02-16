@@ -1,20 +1,90 @@
-#logoBar{
+#logoBar {
   width: 30vw;
   height: 100vh;
+  color: black;
+  font: italic;
+  text-align: center;
+  text-decoration: underline;
 }
-#siteLogo{
+#siteLogo {
   width: 100%;
 }
 body {
   display: flex;
+  background-color: seashell;
+  overflow-y: auto;
 }
-#staffGallery{
-  width: 70vw;
-  display: inherit;
+h1 {
+  margin: 10px 0;
+  font-size: 32px;
+  color: darkolivegreen;
+  font-style: italic;
+}
 
+h3 {
+  margin: 0;
+  font-size: 18px;
+  color: darkolivegreen; /* Gray font color */
 }
-.galleryImage{
-  width: 100%;
+
+#staffGallery {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.galleryImage {
+  width: 200px;
   height: auto;
+  margin: 10px;
+  border-radius: 12px;
+  justify-content: space-around;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+/* Card styles */
+.card {
+  width: 200px;
   height: 300px;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 50px rgba(12, 12, 12, 0.1);
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+@media screen and (width <= 600px) {
+  #logoBar {
+    position: fixed;
+    top: 0;
+    width: auto;
+    height: 42vh;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
+
+  #staffGallery {
+    position: fixed;
+    padding-top: 350px;
+    width: 90%;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+  }
+  .card {
+    height: 250px;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
 }
