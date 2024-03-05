@@ -275,6 +275,9 @@ body {
     flex-direction: column;
   }
 
+  #Menu {
+    padding: 0vh;
+  }
   #Menu h2,
   #Gallery h2,
   #menuBar h2 {
@@ -306,7 +309,7 @@ body {
   }
   #menuBar {
     align-items: flex-start;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
     padding: 3vh;
     flex-direction: row;
     height: 0.3vh;
