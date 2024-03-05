@@ -21,7 +21,7 @@ body {
   font-style: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #bf0095;
-  font-size: 1.1vw;
+  font-size: 1.3vw;
 }
 #LogoBar h1 {
   text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
@@ -60,8 +60,8 @@ body {
   display: flex;
   margin-right: 0.5vh;
   margin-bottom: 0.2vh;
-  height: 2.2vh;
-  width: 1.5vw;
+  height: 2.4vh;
+  width: 1.8vw;
 }
 .icon {
   display: flex;
@@ -266,11 +266,20 @@ body {
     height: 2vh;
     margin: 0.5vw;
   }
+  #ViviPhoto {
+    height: 0vw;
+  }
+  #pageBody {
+    align-items: center;
+    flex-direction: column;
+  }
+
   #Menu h2,
   #Gallery h2,
-  #menuBar {
-    font-size: 2.3vh;
+  #menuBar h2 {
+    font-size: 2vh;
   }
+
   #NavigationBar h2 {
     font-size: 1.8vw;
   }
@@ -286,10 +295,6 @@ body {
     width: 20vw;
     align-items: center;
   }
-  .icon img {
-    height: 3vh;
-    width: 5vh;
-  }
   .gallery-container {
     flex-direction: column;
     width: 80vw;
@@ -297,5 +302,14 @@ body {
   .gallery-item img {
     width: 50vw;
     height: fit-content;
+  }
+  #menuBar {
+    align-items: flex-start;
+    margin-bottom: 5vh;
+    flex-direction: row;
+    height: 0.3vh;
+    width: 80vw;
+    justify-content: center;
+    justify-content: space-around;
   }
 }
