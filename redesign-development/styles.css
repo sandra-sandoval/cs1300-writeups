@@ -95,7 +95,7 @@ body {
 
 .menuButton {
   background-color: #e2cccc;
-  border-radius: 10px;
+  border-radius: 1vw;
   align-items: center;
   font-size: medium;
   box-shadow: black;
@@ -289,7 +289,7 @@ body {
 
   .menuItems,
   .menuButton h3 {
-    font-size: 1.5vh;
+    font-size: 1.3vh;
   }
   .icon {
     width: 20vw;
