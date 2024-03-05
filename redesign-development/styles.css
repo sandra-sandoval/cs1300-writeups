@@ -4,7 +4,7 @@ body {
   background-color: #f1dede;
   overflow-y: auto;
 }
-
+/* Header styling */
 #Header {
   display: flex;
   flex-wrap: wrap;
@@ -21,70 +21,76 @@ body {
   font-style: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #bf0095;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-size: medium;
-  max-width: fit-content;
-  max-height: fit-content;
+  font-size: 1.1vw;
+}
+#LogoBar h1 {
+  text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 #LogoBar img {
   display: flex;
-  max-width: 70px;
-  margin-right: 10px;
+  flex-wrap: wrap;
+  width: 4vw;
+  height: 6vh;
+  margin-left: 1vw;
 }
 
 #NavigationBar {
-  display: flex; /* Use flexbox for layout */
+  display: flex;
   flex-wrap: wrap;
-  align-items: center; /* Align items vertically in the center */
-  padding: 10px; /* Add padding for spacing */
+  align-items: center;
+  padding: 1vw;
+  margin-top: 0.3vh;
+  height: fit-content;
+  margin-right: 1vw;
+  min-width: fit-content;
 }
 
 #NavigationBar h2 {
   margin: 0 30px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: medium;
+  font-size: 1vw;
 }
 #NavigationBar h2:hover {
   color: white;
   text-shadow: 2px 2px 4px #7c4d4d;
 }
-*/ .icon img {
-  margin-right: 5px;
-  margin-bottom: 15px;
+.icon img {
+  display: flex;
+  margin-right: 0.5vh;
+  margin-bottom: 0.2vh;
+  height: 2.2vh;
+  width: 1.5vw;
 }
 .icon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
-  max-width: 500px;
-  margin-right: 10px;
-  padding: 5px;
+  width: 10vw;
+  margin-right: 0.3vw;
 }
-.headerButton {
-  /* max-width: 180px; */
+/* PageBody styling */
+#pageBody {
   display: flex;
-  flex-wrap: wrap;
-  height: 30px;
-  margin-right: 10px;
-  background-color: #7c4d4d;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: larger;
-  box-shadow: 5px 5px 10px #7c4d4d;
-  border-radius: 15px;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+  height: fit-content;
 }
+/* Body: Menu Bar Styling */
 #menuBar {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 5vw;
   text-align: center;
   padding: 20px;
-  max-width: 120px;
+  width: 50vw;
+  min-height: fit-content;
+  height: 20vh;
+  align-items: center;
+  font-size: 1.2vw;
 }
 
 .menuButton {
@@ -94,8 +100,9 @@ body {
   font-size: medium;
   box-shadow: black;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  max-width: 200px;
-  margin-bottom: 10px;
+  min-width: fit-content;
+  width: 7vw;
+  margin-bottom: 1vh;
   text-align: center;
 }
 .menuButton:hover {
@@ -103,50 +110,74 @@ body {
   color: white;
 }
 .menuButton h3 {
+  font-size: 1vw;
   margin: 8px;
 }
-
+/* Body: Menu Styling */
 #Menu {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  /* max-width: fit-content; */
   justify-content: center;
   flex-direction: row;
   align-items: center;
   margin: 10px;
-  max-height: 645px;
-  max-width: 866px;
+  width: 80vw;
+  height: 80vh;
   overflow-y: auto;
-  /* justify-content: space-between; */
+}
+#Menu h2 {
+  text-align: center;
+  font-size: 1vw;
+  background-color: #bf0095;
+  color: white;
+  justify-content: center;
+  max-width: max-content;
+  padding: 8px 5px;
+  border-radius: 5px;
+  align-items: center;
 }
 #Menu img {
   display: flex;
-  max-height: 500px;
+  max-height: 30vh;
 }
 .submenu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 2vh;
+  font-size: 3vw;
 }
 #signatureSubmenu {
-  /* border: #bf0095, solid, 7px; */
   border-color: #bf0095;
-  border-width: 7px;
-  border-style: solid;
+}
+#toppingsSubMenu {
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30vw;
+  max-height: fit-content;
+  flex-direction: row;
+}
+#sugarSubmenu,
+#iceSubmenu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 1vw;
+  width: 20vw;
 }
 .menuItems {
   display: flex;
   background-color: #e2cccc;
-  font-size: medium;
-
+  font-size: 1vw;
   box-shadow: 5px 5px 10px #814d76;
   border-color: #814d76;
+  border-width: 0.5vw;
   border-style: solid;
-  border-width: 7px;
-  border-radius: 10px;
+  border-radius: 1vw;
 
   max-height: fit-content;
   flex-direction: column;
@@ -159,9 +190,9 @@ body {
   align-items: center;
   max-height: fit-content;
   flex-direction: row;
-  padding: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0.2 vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .itemandPrice p {
@@ -170,50 +201,14 @@ body {
   justify-content: right;
 }
 .itemandPrice img {
-  border-radius: 10px;
+  border-radius: 1vw;
   padding: 1px;
+  width: 2vw;
+  height: 2vw;
 }
-
-#Menu h2,
+/* Gallery styling */
 #Gallery h2 {
-  text-align: center;
-  font-size: large;
-  background-color: #bf0095;
-  color: white;
-  /* max-width: 240px; */
-  justify-content: center;
-  max-width: max-content;
-  padding: 8px 5px;
-  border-radius: 5px;
-  align-items: center;
-  /* margin: auto; */
-}
-#pageBody {
-  display: flex;
-  justify-content: space-between; /* Distribute items evenly along the main axis */
-  align-items: center; /* Align items vertically in the center */
-  flex-direction: row;
-}
-#toppingsSubMenu {
-  justify-content: left;
-  display: flex;
-  flex-wrap: wrap;
-  /* max-height: 300px; */
-  max-width: 370px;
-  flex-direction: row;
-}
-#sugarSubmenu,
-#iceSubmenu {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 250px;
-  justify-content: left;
-  padding-left: 10px;
-}
-#sugarSubmenu h3,
-#iceSubmenu h3 {
-  margin: 10px;
+  font-size: 1.5vw;
 }
 #Gallery {
   display: flex;
@@ -221,25 +216,86 @@ body {
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  margin: 55px;
-  border-radius: 15px;
-
+  margin: 3vh;
   align-items: center;
-  /* background-color: #f2c2c2; */
 }
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
-  max-width: 1000px;
+  width: 80vw;
 }
 .gallery-item {
-  justify-content: center;
-  padding: 10px;
+  padding: 1vw;
 }
+.gallery-item img {
+  width: 20vw;
+}
+/* Splitter styling */
 .splitter {
   background-color: #bf0095;
   opacity: 50%;
-  height: 90px;
+  height: 5vh;
+}
+/* Media Querry */
+@media screen and (width <= 650px) {
+  #Header {
+    flex-direction: column;
+    align-content: center;
+  }
+  #LogoBar {
+    display: flex;
+    font-size: 3vw;
+    width: 100%;
+    justify-content: center;
+  }
+  #LogoBar img {
+    width: 8vw;
+    height: 6vh;
+  }
+  #LogoBar h1 {
+    font-size: 5vw;
+  }
+  #NavigationBar {
+    width: fit-content;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #NavigationBar img {
+    width: 2.5vw;
+    height: 2vh;
+    margin: 0.5vw;
+  }
+  #Menu h2,
+  #Gallery h2,
+  #menuBar {
+    font-size: 2.3vh;
+  }
+  #NavigationBar h2 {
+    font-size: 1.8vw;
+  }
+  #menuButton {
+    min-width: 7vw;
+  }
+
+  .menuItems,
+  .menuButton h3 {
+    font-size: 1.5vh;
+  }
+  .icon {
+    width: 20vw;
+    align-items: center;
+  }
+  .icon img {
+    height: 3vh;
+    width: 5vh;
+  }
+  .gallery-container {
+    flex-direction: column;
+    width: 80vw;
+  }
+  .gallery-item img {
+    width: 50vw;
+    height: fit-content;
+  }
 }
