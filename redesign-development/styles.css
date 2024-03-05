@@ -13,6 +13,7 @@ body {
   flex-direction: row;
   background-color: #f2c2c2;
   max-height: fit-content;
+  max-width: 100vw;
 }
 
 #LogoBar {
@@ -254,7 +255,7 @@ body {
     height: 6vh;
   }
   #LogoBar h1 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   #NavigationBar {
     width: fit-content;
