@@ -307,7 +307,7 @@ body {
   #menuBar {
     align-items: flex-start;
     margin-bottom: 5vh;
-    padding: 1vw;
+    padding: 3vh;
     flex-direction: row;
     height: 0.3vh;
     width: 80vw;

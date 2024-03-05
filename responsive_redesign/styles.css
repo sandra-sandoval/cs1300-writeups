@@ -17,6 +17,7 @@ h3 {
   margin-right: 30%;
   margin-left: 5%;
   font-size: larger;
+  margin-top: 1vh;
 }
 img {
   margin-left: 5%;
@@ -24,4 +25,13 @@ img {
 }
 h2 {
   margin-left: 2%;
+}
+h4 {
+  font-style: normal;
+  font-size: large;
+  text-decoration: underline;
+  margin-right: 30%;
+  margin-left: 5%;
+  margin-top: 3vh;
+  margin-bottom: 0vh;
 }
