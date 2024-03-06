@@ -5,7 +5,7 @@ body {
   overflow-y: auto;
 }
 /* Header styling */
-#Header {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -72,16 +72,16 @@ body {
   width: 10vw;
   margin-right: 0.3vw;
 }
-/* PageBody styling */
-#pageBody {
+/* Main page body styling */
+main {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   height: fit-content;
 }
-/* Body: Menu Bar Styling */
-#menuBar {
+/* section styling */
+section {
   display: flex;
   flex-direction: column;
   margin-left: 5vw;
@@ -225,14 +225,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 80vw;
+  justify-content: space-between;
+  align-items: center;
 }
-.gallery-item {
+.gallery-container img {
+  width: 20vw;
+  height: fit-content;
   padding: 1vw;
 }
-.gallery-item img {
-  width: 20vw;
-}
-/* Splitter styling */
 .splitter {
   background-color: #bf0095;
   opacity: 50%;
@@ -240,7 +240,7 @@ body {
 }
 /* Media Querry */
 @media screen and (width <= 650px) {
-  #Header {
+  header {
     flex-direction: column;
     align-content: center;
   }
@@ -270,7 +270,7 @@ body {
   #ViviPhoto {
     height: 0vw;
   }
-  #pageBody {
+  main {
     align-items: center;
     flex-direction: column;
   }
@@ -302,12 +302,13 @@ body {
   .gallery-container {
     flex-direction: column;
     width: 80vw;
+    align-items: center;
   }
-  .gallery-item img {
+  .gallery-container img {
     width: 50vw;
     height: fit-content;
   }
-  #menuBar {
+  section {
     align-items: flex-start;
     margin-bottom: 1vh;
     padding: 3vh;
