@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1dede;
+  overflow-y: auto;
+}
+/* Header styling */
+#Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f2c2c2;
+  max-height: fit-content;
+  max-width: 100vw;
+}
+
+#LogoBar {
+  display: flex;
+  align-items: center;
+  font-style: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #bf0095;
+  font-size: 1.3vw;
+}
+#LogoBar h1 {
+  text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#LogoBar img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 4vw;
+  height: 6vh;
+  margin-left: 1vw;
+}
+
+#NavigationBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1vw;
+  margin-top: 0.3vh;
+  height: fit-content;
+  margin-right: 1vw;
+  min-width: fit-content;
+}
+
+#NavigationBar h2 {
+  margin: 0 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1vw;
+}
+#NavigationBar h2:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #7c4d4d;
+}
+.icon img {
+  display: flex;
+  margin-right: 0.5vh;
+  margin-bottom: 0.2vh;
+  height: 2.4vh;
+  width: 1.8vw;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  width: 10vw;
+  margin-right: 0.3vw;
+}
+/* PageBody styling */
+#pageBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: fit-content;
+}
+/* Body: Menu Bar Styling */
+#menuBar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  text-align: center;
+  padding: 20px;
+  width: 50vw;
+  min-height: fit-content;
+  height: 20vh;
+  align-items: center;
+  font-size: 1.2vw;
+}
+
+.menuButton {
+  background-color: #e2cccc;
+  border-radius: 1vw;
+  align-items: center;
+  font-size: medium;
+  box-shadow: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  min-width: fit-content;
+  width: 7vw;
+  margin-bottom: 1vh;
+  text-align: center;
+}
+.menuButton:hover {
+  background-color: #bf0095;
+  color: white;
+}
+.menuButton h3 {
+  font-size: 1vw;
+  margin: 8px;
+}
+/* Body: Menu Styling */
+#Menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  width: 80vw;
+  height: 80vh;
+  overflow-y: auto;
+}
+#Menu h2 {
+  text-align: center;
+  font-size: 1vw;
+  background-color: #bf0095;
+  color: white;
+  justify-content: center;
+  max-width: max-content;
+  padding: 8px 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+#Menu img {
+  display: flex;
+  max-height: 30vh;
+}
+.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  font-size: 3vw;
+}
+#signatureSubmenu {
+  border-color: #bf0095;
+}
+#toppingsSubMenu {
+  justify-content: left;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30vw;
+  max-height: fit-content;
+  flex-direction: row;
+}
+#sugarSubmenu,
+#iceSubmenu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 1vw;
+  width: 20vw;
+}
+.menuItems {
+  display: flex;
+  background-color: #e2cccc;
+  font-size: 1vw;
+  box-shadow: 5px 5px 10px #814d76;
+  border-color: #814d76;
+  border-width: 0.5vw;
+  border-style: solid;
+  border-radius: 1vw;
+
+  max-height: fit-content;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.itemandPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: fit-content;
+  flex-direction: row;
+  padding: 0.2 vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.itemandPrice p {
+  margin-left: 20px;
+  margin-right: 0px;
+  justify-content: right;
+}
+.itemandPrice img {
+  border-radius: 1vw;
+  padding: 1px;
+  width: 2vw;
+  height: 2vw;
+}
+/* Gallery styling */
+#Gallery h2 {
+  font-size: 1.5vw;
+}
+#Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3vh;
+  align-items: center;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+}
+.gallery-item {
+  padding: 1vw;
+}
+.gallery-item img {
+  width: 20vw;
+}
+/* Splitter styling */
+.splitter {
+  background-color: #bf0095;
+  opacity: 50%;
+  height: 5vh;
+}
+/* Media Querry */
+@media screen and (width <= 650px) {
+  #Header {
+    flex-direction: column;
+    align-content: center;
+  }
+  #LogoBar {
+    display: flex;
+    font-size: 3vw;
+    width: 100%;
+    justify-content: center;
+  }
+  #LogoBar img {
+    width: 8vw;
+    height: 6vh;
+  }
+  #LogoBar h1 {
+    font-size: 6vw;
+  }
+  #NavigationBar {
+    width: fit-content;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #NavigationBar img {
+    width: 2.5vw;
+    height: 2vh;
+    margin: 0.5vw;
+  }
+  #ViviPhoto {
+    height: 0vw;
+  }
+  #pageBody {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #Menu {
+    padding: 0vh;
+  }
+  #Menu h2,
+  #Gallery h2,
+  #menuBar h2 {
+    font-size: 2vh;
+  }
+
+  #NavigationBar h2 {
+    font-size: 1.8vw;
+  }
+  #menuButton {
+    min-width: 7vw;
+  }
+
+  .menuItems,
+  .menuButton h3 {
+    font-size: 1.3vh;
+  }
+  .icon {
+    width: 20vw;
+    align-items: center;
+  }
+  .gallery-container {
+    flex-direction: column;
+    width: 80vw;
+  }
+  .gallery-item img {
+    width: 50vw;
+    height: fit-content;
+  }
+  #menuBar {
+    align-items: flex-start;
+    margin-bottom: 1vh;
+    padding: 3vh;
+    flex-direction: row;
+    height: 0.3vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
