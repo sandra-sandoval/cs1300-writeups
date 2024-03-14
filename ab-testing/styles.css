@@ -1,0 +1,38 @@
+body {
+  background-color: blanchedalmond;
+  margin: 3vw;
+}
+img {
+  width: 50vw;
+}
+h4,
+h5 {
+  font-size: 2.2vh;
+  color: brown;
+}
+h1 {
+  font-size: 4vh;
+}
+h2 {
+  font-size: 3vh;
+}
+h3 {
+  font-size: 2.3vh;
+  text-decoration: underline;
+}
+p {
+  font-size: 2vh;
+  margin-bottom: 1vh;
+}
+#hypothesis {
+  font-style: oblique;
+  margin-bottom: 0vh;
+}
+#reasoning {
+  text-indent: 1vw;
+  margin-top: 0;
+}
+
+#label {
+  text-decoration: underline;
+}
