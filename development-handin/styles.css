@@ -1,0 +1,37 @@
+table {
+  height: 15vh;
+  width: 40vw;
+}
+
+thead,
+tbody {
+  font-size: 2.3vh;
+}
+#Yes {
+  background-color: #d9ead3;
+  /* background-color: rgb(161, 213, 161); */
+}
+#No {
+  background-color: #f4cccc;
+  /* background-color: rgb(249, 184, 184); */
+}
+#img {
+  height: 20vh;
+}
+body {
+  margin: 3vw;
+}
+h1 {
+  font-size: 4vh;
+}
+h2 {
+  font-size: 3vh;
+}
+h3 {
+  font-size: 2.3vh;
+  text-decoration: underline;
+}
+p,
+li {
+  font-size: 2vh;
+}
