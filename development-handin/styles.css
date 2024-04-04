@@ -16,10 +16,12 @@ tbody {
   /* background-color: rgb(249, 184, 184); */
 }
 #img {
-  height: 20vh;
+  height: 25vh;
+  margin: 1vh;
 }
 body {
   margin: 3vw;
+  background-color: rgb(235, 243, 245);
 }
 h1 {
   font-size: 4vh;
@@ -34,4 +36,8 @@ h3 {
 p,
 li {
   font-size: 2vh;
+}
+#label {
+  font-size: 2vh;
+  text-decoration: underline;
 }
