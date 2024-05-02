@@ -6,7 +6,8 @@ header {
   justify-content: space-between;
   align-items: center;
   /* background-color: #cecece; */
-  background-color: #f0ebe3;
+  /* background-color: #f0ebe3; */
+  background-color: #f5eaf1;
   padding-left: 1vw;
   height: 8vh;
 }
@@ -155,4 +156,16 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
 }
+.card-container {
+  /* justify-content: center; */
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card-container img {
+  height: 25vw;
+  margin-left: 1vw;
+}
+
 /* .case-card  */
