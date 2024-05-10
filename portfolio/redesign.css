@@ -9,20 +9,37 @@
   margin-right: 2vw;
 }
 b {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   padding-bottom: 5vw;
 }
-
+#Project-title {
+  padding-left: 2vw;
+}
 #subsection-img {
   width: 35vw;
   margin-left: 2vw;
 }
 #redesign-subsection p,
-li {
+li,
+#sketches-subsection p,
+ol {
   margin-top: 1vw;
   line-height: 2vw;
+  font-family: inter, sans-serif;
+  padding-right: 2vw;
 }
-
+li {
+  list-style: none;
+}
+.main-body h2 {
+  font-size: 2vw;
+}
+#redesign-subsection p,
+li {
+  font-family: inter, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
 #logo {
   width: 20vw;
   margin-right: 2vw;
@@ -47,14 +64,93 @@ li {
   margin-bottom: 1.5vw;
 }
 .img-container {
-  display: flex;
+  display: block;
   flex-direction: row;
   /* overflow-x: auto; */
-  width: 70vw;
+  /* width: 70vw; */
 }
 .img-container img {
   height: 25vw;
   padding: 1vw;
   background-color: rgb(255, 238, 250);
   margin: 0.5vw;
+}
+.main-body {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  justify-content: space-around;
+}
+ul,
+ol {
+  list-style: none;
+}
+.menu {
+  /* background-color: aliceblue; */
+  /* position: fixed; */
+  display: block;
+  padding-right: 1vw;
+  font-size: 1.5vw;
+  font-family: inter, sans-serif;
+  font-weight: 20%;
+  align-items: center;
+}
+
+#menu-item {
+  color: rgb(123, 122, 122);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.body-content {
+  height: 85vh;
+  overflow-y: scroll;
+  width: fit-content;
+}
+body {
+  overflow-y: hidden;
+}
+#skecthes-subsection {
+  flex-direction: column;
+  align-items: flex-start;
+}
+#skecthes-subsection p {
+  font-family: inter, sans-serif;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  font-weight: 300;
+  margin-top: 0%;
+}
+#Skecthes h2 {
+  margin-bottom: 0;
+  padding: 0;
+}
+#Skecthes p {
+  margin-top: 0;
+  padding-top: 0;
+}
+#Sketches h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: inter, sans-serif;
+  font-size: 1.3vw;
+}
+.specfics-container {
+  margin-top: 0;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* justify-content: space-between; */
+}
+.specifics {
+  padding: 5vw;
+  padding-top: 0;
+}
+.specifics br {
+  display: block; /* This makes <br> a block-level element */
+  margin-top: 1vh; /* Adjust the top margin to create space */
+  content: ""; /* For IE 8 and earlier */
 }

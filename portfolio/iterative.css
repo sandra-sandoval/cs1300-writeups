@@ -1,0 +1,101 @@
+#partiful-logo {
+  border-radius: 70%;
+  height: 20vh;
+  width: 30%;
+}
+#team-subsection {
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+#card-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 2vw;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+#team-subsection p {
+  margin-top: 1vw;
+  line-height: 2vw;
+  font-family: inter, sans-serif;
+  font-size: 1.2vw;
+  text-align: start;
+  justify-content: flex-start;
+  /* padding: 2vw; */
+  /* padding-right: 2vw; */
+  font-weight: 100%;
+}
+#overview-subsection {
+  flex-direction: row;
+  display: flex;
+}
+.photo-card {
+  /* margin-right: 1vw; */
+  padding: 2vw;
+  justify-content: center;
+  text-align: center;
+
+  box-shadow: 0.5vw 0.5vw 1vw lightgrey;
+  /* width: 30vw; */
+}
+.photo-card img {
+  width: 10vw;
+}
+.photo-card i {
+  font-size: 1.2vw;
+}
+#partiful-img {
+  height: 50vh;
+}
+#iterative-subsection p,
+#overview-subsection p {
+  margin-top: 1vw;
+  line-height: 2vw;
+  font-family: inter, sans-serif;
+  padding-right: 2vw;
+  font-weight: 300;
+  display: block;
+  text-align: start;
+}
+#iterative-subsection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#team-subsection b {
+  justify-content: left;
+  text-align: start;
+}
+.sketch-container {
+  display: block;
+  flex-direction: column;
+}
+.sketch-container img {
+  height: 40vh;
+  /* width: 50vw;
+  display: flex; */
+}
+#partiful-loFi img,
+#revised-container img,
+#hifi img {
+  margin-right: 2vw;
+  margin-top: 1.5vw;
+  height: 50vh;
+}
+#partiful-loFi {
+  justify-content: center;
+}
+#revised-container img {
+  justify-content: center;
+}
+#styleGuide {
+  height: 70vh;
+}
+.section a {
+  color: blue;
+  text-decoration: underline;
+}
