@@ -14,6 +14,7 @@ b {
 }
 #Project-title {
   padding-left: 2vw;
+  font-family: inter, sans-serif;
 }
 #subsection-img {
   width: 35vw;
@@ -79,7 +80,7 @@ li {
   margin-top: 1vw;
   display: flex;
   flex-direction: row;
-  width: 90vw;
+  /* width: 90vw; */
   justify-content: space-around;
 }
 ul,
@@ -88,7 +89,7 @@ ol {
 }
 .menu {
   /* background-color: aliceblue; */
-  /* position: fixed; */
+  position: flex-start;
   display: block;
   padding-right: 1vw;
   font-size: 1.5vw;
@@ -106,12 +107,10 @@ a {
 }
 .body-content {
   height: 85vh;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   width: fit-content;
 }
-body {
-  overflow-y: hidden;
-}
+
 #skecthes-subsection {
   flex-direction: column;
   align-items: flex-start;
@@ -153,4 +152,9 @@ body {
   display: block; /* This makes <br> a block-level element */
   margin-top: 1vh; /* Adjust the top margin to create space */
   content: ""; /* For IE 8 and earlier */
+}
+#img-label {
+  font-size: 1.2vw;
+  font-family: inter, sans-serif;
+  font-weight: 550;
 }

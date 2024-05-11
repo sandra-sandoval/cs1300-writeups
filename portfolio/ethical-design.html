@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="redesign.css" />
     <link rel="stylesheet" href="iterative.css" />
+    <link rel="stylesheet" href="ethical.css" />
   </head>
   <header>
     <div id="Title">
@@ -22,27 +23,33 @@
       <div class="menu">
         <ul>
           <li><a href="#Overview" , id="menu-item">Overview</a></li>
-          <li><a href="#Current" , id="menu-item">Current Design</a></li>
-          <li><a href="#Problems" , id="menu-item">Problems</a></li>
-          <li><a href="#Sketches" , id="menu-item">Sketches</a></li>
+          <li><a href="#impacts" , id="menu-item">Social Impacts</a></li>
+          <li><a href="#interviews" , id="menu-item">User Interviews</a></li>
+          <li><a href="#design" , id="menu-item">Design Choices</a></li>
+          <li><a href="#mydesign" , id="menu-item">My Design</a></li>
         </ul>
       </div>
       <div class="body-content">
-        <h1 id="Project-title">Ethical Design of Period Tracking Apps</h1>
+        <h1 id="Project-title">
+          Ethical Design of <i>Period Tracking Apps</i>
+        </h1>
         <div class="section" , id="overview">
           <div class="subsection" , id="redesign-subsection">
             <p>
               <b>Overview</b>
               <br />
+              <br />
               When looking at current Period Tracking applications, it is clear
               that many have similar features aiming at giving their users a
               better understanding of their menstrual health. Over the past few
               years, however, users have become more concern with how their
-              usage of these apps could be used against them. This pushed me to
-              consider the social impacts of common features and design a period
-              tracking app that accounts for them. I will develop a lo-fi mockup
-              of a period tracking app that is user conscious and considers the
-              ethical implications of its features.
+              usage of these apps could be used against them.
+              <br />This pushed me to consider common features' implications and
+              design a period tracking app that accounts and mitigates them. I
+              will develop a lo-fi mockup of a period tracking app that is user
+              conscious and considers the ethical implications of its features.
+              To do so, I will analyze overall social impacts, conduct a user
+              interview, and weigh the pros and cons of each feature.
             </p>
           </div>
         </div>
@@ -58,60 +65,116 @@
             <p>
               <b>Social Impacts</b>
               <br />
-              While there are several social implications for common period app
-              features, I want to specifically discuss and prioritize these
-              issues in my design.
+              <br />
+              To be able to design a user-conscious period app, I must first
+              discuss and analyze the social impacts that come with their common
+              features. Specifically, I want to discuss the following issues to
+              address and mitigate them in my design.
             </p>
           </div>
           <div id="box-container">
-            <div class="box">
-              <h2 id="label">User Autonomy</h2>
-              <li>
-                Poor structure: The order of the images (with the special
-                signature image directly above the menu image) may cause
-                confusion for the user in which image they should be looking at
-                to get information about the drinks, toppings, and prices
-                offered by Vivi Bubble Tea.
-              </li>
-              <li>
-                Layout: Navigation may not be very intuitive as the menu image
-                is not the main or the largest image on the page.
-              </li>
+            <div class="box" , id="feature">
+              <p>User Autonomy</p>
             </div>
-            <div class="box">
-              <h2 id="label">User Privacy</h2>
-              <li>
-                Due to the sensitive medical information that a period tracker
-                Because period trackers track sensitive user health and medical
-                information such as days in which the user is menstruating,
-                ovulating, pregnant, and other sensitive reproductive health
-                information, and thus, users will feel uncomfortable and
-                violated if their data is accessed by third parties.
-                Specifically, threats to user privacy could lead to
-                <i>Discrimination</i>, <i>Commercial Exploitation</i>,
-                <i>Legal Prosection</i>
-                <!-- <ul>
-                  <li>Discrimination</li>
-                  <li>Commercial Exploitation</li>
-                  <li>Prosection</li>
-                </ul> -->
-              </li>
+            <div class="box" , id="feature">
+              <p>User Privacy</p>
             </div>
-            <div class="box">
-              <h2 id="label">User Empowerment</h2>
-              <li>
-                Clutter : The order of the images reduces the page’s efficiency
-                as users must seek the menu image that contains information
-                about drinks, prices, and toppings from the others displayed on
-                the screen.
-              </li>
-              <li>
-                Ordering: There is no way to select an item from the page to
-                place an order. Instead, the customer must type their wanted
-                order onto a different page. This reduces efficiency as a
-                customer will have to find their desired drink from another menu
-                on a different page.
-              </li>
+
+            <div class="box" , id="feature">
+              <p>User Empowerment</p>
+            </div>
+          </div>
+          <div class="subsection" , id="iterative-subsection">
+            <p>
+              <b id="sub-label">User Privacy</b>
+              <br />
+              The sensitive medical data that period tracker apps collect is
+              very sensitive as it can be used to infer about when a user is
+              pregnant, has had a miscariage, or abortion. Thus, when user
+              privacy is violated, their human right to respect and dignity is
+              violated.
+              <br />
+              Rather, they are stripped of their right to make their own
+              decision about who has access to this data or not.
+            </p>
+          </div>
+          <div class="subsection" , id="iterative-subsection">
+            <p>
+              <b id="sub-label">User Autonomy</b>
+              <br />
+              When a user signs up for a period-tracking app, they are entering
+              a contract with the app in which the app promises to act only
+              according to outlined policies. Therefore, when an app
+              purposefully violates these policies, they are violating their
+              consent and autonomy as users did not agree to use the app with
+              those terms.
+              <br />
+              <br />
+              Further, when a user's data is exposed or shared without their
+              consent, they are exposed to the possibility of discrimination,
+              commercial exploitation, and even legal persecution.
+              <br />
+              When a users' data is used against them by legal authorities, the
+              legal authorities have the ability to not only surveil their
+              bodies, but govern them also. In that sense, they lose autonomy as
+              they no longer posesses the power to dictate their fate.
+            </p>
+          </div>
+          <div class="subsection" id="iterative-subsection">
+            <p>
+              <b id="sub-label">User Empowerment</b>
+              <br />
+              User Empowerment is one of the most important social impacts of
+              period tracking apps as these apps are both able to promote user
+              empowermeny by providing its users with the necessary tools to
+              understand their menstrual health and make informed decisions
+              about their health or violate user empowerment by promoting
+              paternalistic agendas that influence the way users perceive their
+              health and how they interact with certain aspects of their
+              menstrual cycle.
+            </p>
+          </div>
+        </div>
+        <div class="section" , id="interviews">
+          <div class="subsection" , id="iterative-subsection">
+            <p>
+              <b>User Interviews</b>
+              <br />
+              <br />
+              Though my analysis of social impacts helped me gain a better
+              understanding of the end goal of my design, I sought out a
+              first-hand experience from a frequent user of period apps to gain
+              a better understanding of how exactly certain features violate
+              users' autonomy and hinder empowerment.
+              <br />
+              <br />
+
+              To guage a better understanding of how period applications'
+              features affect individuals in regards to their understanding of
+              their menstrual health, perceptions about symptoms, and their
+              interactions with certain features, I decided to interview a
+              frequent user of a period tracking app.
+              <br />
+              <br />
+              Crystal Mejia is a 21-year-old female who frequently uses the
+              period app, Clue. Mejia shared that prior to Flo's privacy scandal
+              in which the app was found to be sharing user data to third
+              parties, she was a frequent user of Flo.
+
+              <br />
+              <br />
+              Mejia shared that while she finds period trackers to be very
+              useful and essential to tracking her cycle and monitoring her
+              symptoms, she acknowledges that some features have often times
+              made her feel uncomfortable and 'pressured'.
+              <br />
+              <br />
+              In particular, she stated that the emphasis on fertility tracking
+              and pregnancies that is showcased in Flo's interface have made her
+            </p>
+            <div class="img-card">
+              <!-- <h3>Crystal Mejia</h3> -->
+              <img src="assets/interviewee.png" , id="img-icon" />
             </div>
           </div>
         </div>
@@ -121,14 +184,25 @@
               <b>Design Choices</b>
               <br />
               <br />
-              Taking the previously discussed social impacts of commonly seen
-              features in period apps into account, I wanted to gear the
-              features in my design into mitigating them as best as possible.
-              <br />
-              <br />
-              In particular, there was a lot of discussion about the nudges that
-              period apps give users that oftentimes influence their perspective
-              and behavior. Therefore, some of the features that I have decided
+              Taking the previously discussed social impacts of period trackers
+              and Mejia's experiences into account, I wanted to gear the
+              features in my design into mitigating them as best as possible. In
+              such, my design's target users are all people that have menstrual
+              cycles and want a simple way to track it. Further, my design does
+              not explicitly target people with concerns about pregnancy and
+              fertility as one design desicion I made was to exclude the
+              collection of pregnancy-related data.
+              <!-- <br />
+              <br /> -->
+            </p>
+          </div>
+          <h3>Empowerment</h3>
+          <div class="subsection" , id="iterative-subsection">
+            <p>
+              In my analysis, I was particular drawn to the nudges that period
+              apps give users. This is because they oftentimes influence their
+              perspective and behavior, hindering their autonomy and
+              empowerment. Therefore, some of the features that I have decided
               to implement in my design to mitigate the issue of paternalistic
               agendas include
             </p>
@@ -144,12 +218,15 @@
               <p>Customizable Symptom Tracking</p>
             </div>
           </div>
+
+          <h3>Privacy</h3>
           <div class="subsection" , id="iterative-subsection">
             <p>
-              Further, privacy concerns has been a hot topic the past few years
-              and thus, my design must ensure user privacy is protected as best
-              as possible. Some features that aim at protecting user privacy
-              include:
+              Further, privacy is an especially important aspect to consider as
+              it has many dangerous implications. Thus, these privacy features
+              aim at securing user accounts, strip user data from any
+              identifiable information, and provide a more secure storage
+              method.
             </p>
           </div>
           <div id="box-container">
@@ -163,12 +240,66 @@
               <p>Local Storage Option</p>
             </div>
           </div>
+
+          <h3>Autonomy</h3>
+          <div class="subsection" , id="iterative-subsection">
+            <p>
+              In regards to protecting users' autonomy, I wanted to design the
+              app in such a way that handed over most of the power to the user
+              such that they are fully in control in how to manage their data,
+              which data is stored and collected, amd when it is deleted.
+              Further, I believe it was especially important to be transparent
+              with the users to ensure informed consent that does not feel
+              deceive.
+            </p>
+          </div>
+          <div id="box-container">
+            <div class="box" , id="feature">
+              <p>Policy Transparency</p>
+            </div>
+            <div class="box" , id="feature">
+              <p>Customizable Settings</p>
+            </div>
+            <div class="box" , id="feature">
+              <p>Customizable Delete Feature</p>
+            </div>
+            <div class="box" , id="feature">
+              <p>Export Data</p>
+            </div>
+          </div>
         </div>
-        <div class="section" , id="lo-fi">
+        <div class="section" , id="my-design">
           <div class="subsection" , id="redesign-subsection">
             <p>
-              <b>Lo-Fi Wireframe</b>
+              <b>My Design</b>
+              <br />
+              <br />
+              Considering all design choices, including the desired features to
+              incorporate, I chose to develop a lo-fi wireframe showcasing this.
+              <br />
+              <br />
+              In particular, the lo-fi wireframe incorporates a few
+              commonly-seen period tracking features such as display of
+              graphical data and predictions on next period. However, it also
+              includes features that aimed at mitigating privacy, autonomy, and
+              pernalistic concerns.
             </p>
+          </div>
+          <div class="sketch-container">
+            <div class="img-card">
+              <h3>Promoting Informed User Consent & Transparency</h3>
+              <img src="assets/Policies.png" />
+            </div>
+            <div class="img-card">
+              <h3>Promoting User Empowerment and Autonomy</h3>
+              <img src="assets/symptom-tracking.png" />
+            </div>
+            <div class="img-card">
+              <h3>
+                Mitigating Privacy Concerns and Promoting User Empowerment
+              </h3>
+              <img src="assets/localStorage.png" />
+            </div>
           </div>
         </div>
       </div>

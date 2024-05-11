@@ -1,3 +1,33 @@
 #feature p {
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.3vw;
+}
+.img-card {
+  /* background-color: antiquewhite; */
+  justify-content: center;
+  text-align: center;
+  /* padding-top: 2vw; */
+  padding-bottom: 2vw;
+  /* box-shadow: 0.5vw 0.5vw 0.5vw lightgrey; */
+  border-radius: 2vw 2vw 2vw 2vw;
+}
+.box {
+  padding: 1vw;
+}
+#sub-label {
+  font-size: 1.2vw;
+  font-weight: 400;
+  text-decoration: underline;
+}
+#img-icon {
+  /* width: 10vw; */
+  height: 30vh;
+  justify-content: center;
+}
+#feature {
+  border-radius: 5vw 5vw 5vw;
+  height: fit-content;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* padding-left: 1vw; */
 }
