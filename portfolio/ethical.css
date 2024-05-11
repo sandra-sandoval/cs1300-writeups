@@ -5,7 +5,7 @@
 .img-card {
   /* background-color: antiquewhite; */
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   /* padding-top: 2vw; */
   padding-bottom: 2vw;
   /* box-shadow: 0.5vw 0.5vw 0.5vw lightgrey; */
@@ -29,5 +29,24 @@
   height: fit-content;
   padding-top: 0;
   padding-bottom: 0;
+
   /* padding-left: 1vw; */
+}
+#feature p {
+  font-size: 1.15vw;
+}
+.section h3 {
+  font-family: inter, sans-serif;
+  font-size: 1.3vw;
+}
+/* .box p {
+  font-size: 1vw;
+} */
+.img-card p {
+  display: block;
+  font-family: Inter, sans-serif;
+  line-height: 5vh;
+  text-decoration: rgb(0, 0, 0);
+  font-weight: 10;
+  justify-content: flex-start;
 }
